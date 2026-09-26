@@ -22,7 +22,11 @@
             swap(ref a,ref b);
             Console.WriteLine(a);
             Console.WriteLine(b);
-            
+
+            #region Q6: What is a generic interface?
+            // Interface that can work with different Types
+            #endregion
+
         }
 
         #region Q4 : Write Swap<T> method.
