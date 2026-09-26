@@ -27,6 +27,14 @@
             // Interface that can work with different Types
             #endregion
 
+            #region Q7: What is the 'struct' constraint? Write an example.
+            // it means that the T type must be a value type
+
+            Container<int> conint = new Container<int>(); // valid
+           //Container<string> constr = new Container<string>(); // invalid
+
+            #endregion
+
         }
 
         #region Q4 : Write Swap<T> method.
