@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AdvCSharp1
 {
-    internal class PersonContainer<T> where T : Person
+    internal class PersonContainer<T> where T : Person , new()
     {
         public void MakeWalk(T Person)
         {

@@ -45,7 +45,6 @@
 
             #region Q9: What is the 'new()' constraint? Write an example.
             // means that the T type must have a parameterless ctor
-
             //Container<Box> box1 = new Container<Box>(); // valid
             #endregion
 
@@ -58,11 +57,19 @@
 
             #region Q11: What is the base class constraint? Write an example
             // means that T or its derived types must inherit from base class
+            //PersonContainer<Employee> emp = new PersonContainer<Employee>();
+            #endregion
 
-            PersonContainer<Employee> emp = new PersonContainer<Employee>();
+
+            #region Q12: How do you apply multiple constraints? Write an example.
+            // by adding multiple constraints in the generic declaration 
+            PersonContainer<Employee> emp2 = new PersonContainer<Employee>(); // it inherits from base class but does not have prameterless ctor
             #endregion
 
         }
+
+
+
 
         #region Q4 : Write Swap<T> method.
         public static void swap<T>(ref T a,ref T b)
