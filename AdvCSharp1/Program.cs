@@ -55,6 +55,13 @@
             //Container<Box> box2 = new Container<Box>(); // invalid because it is does not implement the interface
             #endregion
 
+
+            #region Q11: What is the base class constraint? Write an example
+            // means that T or its derived types must inherit from base class
+
+            PersonContainer<Employee> emp = new PersonContainer<Employee>();
+            #endregion
+
         }
 
         #region Q4 : Write Swap<T> method.
