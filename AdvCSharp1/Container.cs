@@ -5,8 +5,9 @@ using System.Text;
 namespace AdvCSharp1
 {
     #region  Q2 : Write a generic class Container<T> with Add and Get methods.
-    internal class Container<T> where T : class
+    internal class Container<T> where T : class, new()
     {
+        
         public T Item { get; set; }
 
         public void Add(T value)

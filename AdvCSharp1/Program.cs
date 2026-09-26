@@ -39,7 +39,14 @@
             // means that the T type must be a refrence type
 
             //Container<int> conint = new Container<int>(); // invalid
-            Container<string> constr = new Container<string>(); // valid
+            //Container<string> constr = new Container<string>(); // valid
+            #endregion
+
+
+            #region Q9: What is the 'new()' constraint? Write an example.
+            // means that the T type must have a parameterless ctor
+
+            Container<Box> box1 = new Container<Box>(); // valid
             #endregion
 
         }
