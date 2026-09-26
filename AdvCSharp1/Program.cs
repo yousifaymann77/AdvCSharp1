@@ -32,6 +32,21 @@
             temp = a;
             a = b;
             b = temp;
+        }
+        #endregion
+
+        #region Q5 : Write a generic method FindMax<T> that finds maximum value
+        public static T FindMax<T>(T[] values) where T : IComparable<T>
+        {
+            T max = values[0];
+            for (int i = 0; i < values.Length; i++)
+            {
+                if (values[i].CompareTo(max) > 0)
+                {
+                    max = values[i];
+                }
+            }
+            return max;
         } 
         #endregion
     }
