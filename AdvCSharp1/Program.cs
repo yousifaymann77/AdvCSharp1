@@ -30,9 +30,16 @@
             #region Q7: What is the 'struct' constraint? Write an example.
             // it means that the T type must be a value type
 
-            Container<int> conint = new Container<int>(); // valid
-           //Container<string> constr = new Container<string>(); // invalid
+            //Container<int> conint = new Container<int>(); // valid
+            //Container<string> constr = new Container<string>(); // invalid
 
+            #endregion
+
+            #region Q8: What is the 'class' constraint? Write an example.
+            // means that the T type must be a refrence type
+
+            //Container<int> conint = new Container<int>(); // invalid
+            Container<string> constr = new Container<string>(); // valid
             #endregion
 
         }
