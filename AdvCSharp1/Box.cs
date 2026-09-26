@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AdvCSharp1
 {
-    internal class Box
+    internal class Box 
     {
     }
 }

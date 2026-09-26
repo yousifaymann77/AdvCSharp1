@@ -46,7 +46,13 @@
             #region Q9: What is the 'new()' constraint? Write an example.
             // means that the T type must have a parameterless ctor
 
-            Container<Box> box1 = new Container<Box>(); // valid
+            //Container<Box> box1 = new Container<Box>(); // valid
+            #endregion
+
+
+            #region Q10:  What is the interface constraint? Write an example.
+            // means that T type must must implement a specific interface
+            //Container<Box> box2 = new Container<Box>(); // invalid because it is does not implement the interface
             #endregion
 
         }
