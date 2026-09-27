@@ -92,6 +92,11 @@
             // each closed generic type has its own shared static member
             #endregion
 
+
+            #region Q19: How can you inherit from a generic class?
+            // By specifying the type argument 
+            #endregion
+
         }
 
 
