@@ -81,6 +81,12 @@
             // means that the generic type is used as input or consumer and the in keyword used to enable contravariance
             #endregion
 
+
+            #region Q17: What is the difference between covariance and contravariance?
+            //Covariance allows a generic type to use a derived type where a base type is expected mainly for output
+            //Contravariance allows a generic type to use a base type where a derived type is expected mainly for input
+            #endregion
+
         }
 
 
