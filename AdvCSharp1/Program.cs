@@ -63,7 +63,12 @@
 
             #region Q12: How do you apply multiple constraints? Write an example.
             // by adding multiple constraints in the generic declaration 
-            PersonContainer<Employee> emp2 = new PersonContainer<Employee>(); // it inherits from base class but does not have prameterless ctor
+            // PersonContainer<Employee> emp2 = new PersonContainer<Employee>(); // it inherits from base class but does not have prameterless ctor
+            #endregion
+
+
+            #region Q13: What does the 'default' keyword do in generics?
+            // It returns the default value of a type
             #endregion
 
         }
