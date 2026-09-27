@@ -87,6 +87,11 @@
             //Contravariance allows a generic type to use a base type where a derived type is expected mainly for input
             #endregion
 
+
+            #region Q18: How do static members work in generic types?
+            // each closed generic type has its own shared static member
+            #endregion
+
         }
 
 
