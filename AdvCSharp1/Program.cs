@@ -72,7 +72,9 @@
             #endregion
 
 
-
+            #region Q15: What is covariance? Explain the 'out' keyword.
+            // means that te generic type is used as output or producer and the out keyword used to enable covariance
+            #endregion
 
         }
 
