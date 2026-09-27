@@ -76,6 +76,11 @@
             // means that te generic type is used as output or producer and the out keyword used to enable covariance
             #endregion
 
+
+            #region Q16: What is contravariance? Explain the 'in' keyword.
+            // means that the generic type is used as input or consumer and the in keyword used to enable contravariance
+            #endregion
+
         }
 
 
